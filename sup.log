@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  27 JAN 2022 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  27 JAN 2022 12:55
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **sup.tex
 (./sup.tex
@@ -1854,37 +1853,44 @@ File: figures/edgePeaks.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/edgePeaks.pdf  used on input line 383.
 (pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
  [6 <./figures/edgePeaks.pdf>]
-<figures/sum.pdf, id=333, 1626.075pt x 715.17188pt>
+<figures/scatterDirHBN.png, id=333, 433.62pt x 361.35pt>
+File: figures/scatterDirHBN.png Graphic file (type png)
+<use figures/scatterDirHBN.png>
+Package pdftex.def Info: figures/scatterDirHBN.png  used on input line 405.
+(pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
+<figures/sum.pdf, id=335, 1626.075pt x 715.17188pt>
 File: figures/sum.pdf Graphic file (type pdf)
 <use figures/sum.pdf>
-Package pdftex.def Info: figures/sum.pdf  used on input line 405.
+Package pdftex.def Info: figures/sum.pdf  used on input line 441.
 (pdftex.def)             Requested size: 383.03014pt x 168.45827pt.
-<figures/convergences.pdf, id=334, 1626.075pt x 978.65625pt>
+ [7 <./figures/scatterDirHBN.png>]
+<figures/convergences.pdf, id=341, 1626.075pt x 978.65625pt>
 File: figures/convergences.pdf Graphic file (type pdf)
 <use figures/convergences.pdf>
-Package pdftex.def Info: figures/convergences.pdf  used on input line 479.
+Package pdftex.def Info: figures/convergences.pdf  used on input line 517.
 (pdftex.def)             Requested size: 383.03014pt x 230.52184pt.
- [7 <./figures/sum.pdf>] [8 <./figures/convergences.pdf>] [9]
-<figures/emin.pdf, id=1316, 433.62pt x 361.35pt>
+ [8 <./figures/sum.pdf>] [9 <./figures/convergences.pdf>] [10]
+<figures/emin.pdf, id=1322, 433.62pt x 361.35pt>
 File: figures/emin.pdf Graphic file (type pdf)
 <use figures/emin.pdf>
-Package pdftex.def Info: figures/emin.pdf  used on input line 561.
+Package pdftex.def Info: figures/emin.pdf  used on input line 599.
 (pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
- [10 <./figures/emin.pdf>] (./sup.bbl
+ [11 <./figures/emin.pdf>] (./sup.bbl
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 53.
 
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 
 Package natbib Warning: There were undefined citations.
 
-[11] (./sup.aux) ) 
+[12] (./sup.aux) ) 
 Here is how much of TeX's memory you used:
- 13117 strings out of 492982
- 234420 string characters out of 6134896
- 288771 words of memory out of 5000000
- 16546 multiletter control sequences out of 15000+600000
+ 13124 strings out of 492982
+ 234573 string characters out of 6134896
+ 288781 words of memory out of 5000000
+ 16551 multiletter control sequences out of 15000+600000
  589928 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,38p,10402b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1905,10 +1911,10 @@ are/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on sup.pdf (11 pages, 562753 bytes).
+Output written on sup.pdf (12 pages, 735720 bytes).
 PDF statistics:
- 1430 PDF objects out of 1440 (max. 8388607)
- 915 compressed objects within 10 object streams
+ 1436 PDF objects out of 1440 (max. 8388607)
+ 918 compressed objects within 10 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

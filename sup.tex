@@ -402,6 +402,42 @@ smaller than that of the beam electron.
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.6\textwidth]{figures/scatterDirHBN.png}
+  \caption{
+    The most probable beam-induced electronic excitations are direct
+    transitions.
+    Each circle denotes the probability density centered on a particular
+    excitation instigated by a 40 keV beam electron in hexagonal boron nitride,
+    whose Brillouin zone was sampled by a $18\times18\times1$ Monkhorst-Pack
+    mesh.
+  }
+  \label{fig:scatter}
+\end{figure}
+%
+Because the square of the momentum transfer appears in the denominator of the
+$t$-channel in equation (\ref{eq:M}), the probability density for electronic
+excitation peaks sharply when the momentum transfer is minimized.
+This minimization occurs when the beam electron induces a direct transition,
+in which the resulting electron and hole lie on the same k-point.
+Thus, direct excitations that conserve crystal momentum tend to be much more
+likely than indirect excitations (figure \ref{fig:scatter}).
+
+As a result, a sparse k-point mesh leads to an overestimation of $S$,
+the sum of all transition probabilities defined in equation (\ref{eq:S}).
+This is because a coarser k-point mesh yields a higher proportion of direct
+transitions, as there are fewer indirect transitions available for each
+k-point.
+For a given number of k-points $N_k$, the number indirect transitions is
+proportional to $N_k$, while the number of indirect transitions is proportional
+to $N_k^2$.
+Thus, increasing $N_k$ increases the proportion of possible indirect
+transitions, lowering $S$.
+For a sufficiently dense mesh, the distinction between direct and nearly direct
+transitions is inconsequential, in which case, $S$ is converged with respect to
+$N_k$.
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=\textwidth]{figures/sum.pdf}
   \caption{
     Finding the large crystal limit of $S(\epsilon_b)$ requires extrapolation.
@@ -418,9 +454,9 @@ smaller than that of the beam electron.
   \label{fig:Sfit}
 \end{figure}
 
-For a given beam energy $\epsilon_b$, we calculate the sum of all transition
-probabilities $S$ defined in equation (\ref{eq:S}) for various k-point
-densities where the number of k-points in the Brillouin zone is $N_k$.
+Satisfactory convergence of $S$ requires an extremely dense k-point mesh.
+We therefore use extrapolation to determine the converged value of $S$.
+For a given beam energy $\epsilon_b$, we calculate $S$ for various $N_k$.
 We then fit the points to a curve of the form
 
 \begin{equation}
@@ -432,6 +468,8 @@ We then fit the points to a curve of the form
 %
 where $a$, $b$, $c$, and $S_\infty$ are all fitting parameters that depend on
 $\epsilon_b$ (figure \ref{fig:Sfit}a).
+The last parameter $S_\infty$ is the limit of $S$ for large $N_k$, and is taken
+as the converged value of $S$ for that beam energy.
 We repeat this for multiple values of $\epsilon_b$ ranging from 5 to 100 keV
 and record the best fit
 $S_\infty$ for each
@@ -468,9 +506,9 @@ $n_i$ electrons in the large crystal limit.
 \label{tab:fit}
 \end{table}
 
-Finally, $S$ must also be converged with respect all parameters.  These include
-the maximum virtual photon momentum, DFT cutoff energy, and height of the
-pristine unit cell (figure \ref{fig:convergences}).
+Finally, $S$ is also converged with respect to all other parameters.
+These include the maximum virtual photon momentum, DFT cutoff energy, and
+height of the pristine unit cell (figure \ref{fig:convergences}).
 $S$ is considered converged with respect to a parameter when any increase in
 the parameter's precision changes $S$ by less than 5\%.
 

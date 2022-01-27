@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  26 JAN 2022 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  27 JAN 2022 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1848,21 +1848,21 @@ Package pdftex.def Info: figures/exciProbs_overlap.pdf  used on input line 987.
 <figures/eigenvals_overlap.pdf, id=142, 1373.34503pt x 677.53125pt>
 File: figures/eigenvals_overlap.pdf Graphic file (type pdf)
 <use figures/eigenvals_overlap.pdf>
-Package pdftex.def Info: figures/eigenvals_overlap.pdf  used on input line 1175
+Package pdftex.def Info: figures/eigenvals_overlap.pdf  used on input line 1176
 .
 (pdftex.def)             Requested size: 383.03014pt x 188.96309pt.
  [13 <./figures/eigenvals_overlap.pdf>] [14] [15] [16] [17]
 <figures/edgeCross.pdf, id=229, 2133.95633pt x 1081.2044pt>
 File: figures/edgeCross.pdf Graphic file (type pdf)
 <use figures/edgeCross.pdf>
-Package pdftex.def Info: figures/edgeCross.pdf  used on input line 1626.
+Package pdftex.def Info: figures/edgeCross.pdf  used on input line 1627.
 (pdftex.def)             Requested size: 383.03014pt x 194.06396pt.
  [18 <./figures/edgeCross.pdf>]
 [19]
 <figures/MoS2Cross.pdf, id=275, 2048.5985pt x 1081.2044pt>
 File: figures/MoS2Cross.pdf Graphic file (type pdf)
 <use figures/MoS2Cross.pdf>
-Package pdftex.def Info: figures/MoS2Cross.pdf  used on input line 1768.
+Package pdftex.def Info: figures/MoS2Cross.pdf  used on input line 1769.
 (pdftex.def)             Requested size: 363.87746pt x 192.03473pt.
  [20 <./figures/MoS2Cross.pdf>] [21] [22] (./main.bbl [23] [24] [25]
 [26])
@@ -1871,10 +1871,10 @@ Package natbib Warning: There were undefined citations.
 
 [27] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 13117 strings out of 492982
- 235023 string characters out of 6134896
- 293181 words of memory out of 5000000
- 16553 multiletter control sequences out of 15000+600000
+ 13119 strings out of 492982
+ 235053 string characters out of 6134896
+ 293204 words of memory out of 5000000
+ 16555 multiletter control sequences out of 15000+600000
  600728 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,38p,10401b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1897,7 +1897,7 @@ are/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (27 pages, 3272763 bytes).
+Output written on main.pdf (27 pages, 3276122 bytes).
 PDF statistics:
  415 PDF objects out of 1000 (max. 8388607)
  261 compressed objects within 3 object streams

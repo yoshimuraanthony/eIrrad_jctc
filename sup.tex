@@ -494,6 +494,64 @@ the parameter's precision changes $S$ by less than 5\%.
 
 %------------------------------------------------------------------------------
 \pagebreak
+\section{Validity of the three simplifying assumptions}
+\label{app:assumptions}
+%------------------------------------------------------------------------------
+
+While the three assumptions laid out in section \ref{sec:assumptions} may seem
+drastic, their affect on the sputtering cross section is small due to a
+cancellation of errors.
+To see this, consider the connection between the potential energy
+surfaces (ESs) and the PKA velocity.
+% This connection underpins all three simplifying assumptions.
+By assumption 1, the ESs at the PKA’s initial position are equally spaced,
+separated by the material's band gap.
+By assumption 2, the ESs converge to the same energy as the PKA
+approaches a distance $d$.
+We shall ignore assumption 3 for now.
+If we consider that the ESs are not constant as the PKA moves towards $d$, so
+that the PKA slows down in transit, then the energy required to get to $d$
+depends on when the system relaxes to a lower ES.
+This is because higher ESs have shallower slopes than do the lower ones, so
+the PKA's deceleration will be smaller while on a higher ES.
+Thus, as the PKA moves, the ESs converge by assumption 2, and the energy lost
+during relaxation tends to shrink.
+
+% This is where the error cancellation occurs.
+By introducing assumption 3, the energy lost during relaxation does not
+shrink but remains constant while the PKA sputters, and is therefore generally
+greater than it would be with gradually changing ESs.
+% This disparity grows the longer the system remains excited.
+Our method therefore overestimates the energy lost during relaxation.
+On the other hand, because the PKA does not slow down until it reaches $d$,
+assumption 3 also underestimates the sputtering time $t_s$, introduced in
+equation (\ref{eq:R}).
+A smaller $t_s$ means that fewer excitations relax during sputtering,
+increasing the cross section.
+However, each relaxation comes at a higher energy cost, which makes the PKA
+less likely to overcome the displacement threshold, decreasing the cross
+section.
+Thus, the underestimation $t_s$ counteracts the overestimation of the energy
+lost during relaxation, so that final effect on the sputtering cross section is
+small.
+
+Considering the ESs also sheds light on the computational cost saved by
+assumption 3.
+Without assumption 3, $t_s$ would depend on the exact times that each
+relaxation occurs.
+In this case, calculating the cross section would require integration over time
+for each excited ES considered.
+We have found that the consideration of 5 and 9 excited ESs are necessary to
+converge the cross sections of hBN and MoS$_2$ respectively (figure
+\ref{fig:nimax}).
+For an N-point Gaussian quadrature, this would multiply the computational costs
+by $N^5$ and $N^9$ respectively.
+Assumption 3 negates this complication since eliminates the need to consider
+exactly when each relaxation happens, only total number of relaxations before
+the PKA reaches $d$.
+
+%------------------------------------------------------------------------------
+\pagebreak
 \section{Calculating $E_\text{min}$}
 \label{app:Emin}
 %------------------------------------------------------------------------------

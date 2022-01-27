@@ -1,0 +1,118 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{12}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Peskin and Schroeder(1995)Peskin, and Schroeder]{Peskin1995}
+Peskin,~M.~E.; Schroeder,~D.~V. \emph{{An Introduction to Quantum Field
+  Theory}}, 1st ed.; Perseus Books Publishing, L.L.C.: Reading, MA, 1995\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lancaster and Blundell(2014)Lancaster, and Blundell]{Lancaster2014}
+Lancaster,~T.; Blundell,~S.~J. \emph{{Quantum Field Theory for the Gifted
+  Amateur}}, 1st ed.; Oxford University Press: New York, NY, United States of
+  America, 2014; p 350\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bjorken and Drell(1964)Bjorken, and Drell]{Bjorken1964}
+Bjorken,~J.~D.; Drell,~S.~D. \emph{{Relativistic Quantum Mechanics}};
+  International series in pure and applied physics; McGraw-Hill, 1964\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inc.()]{Mathematica}
+Inc.,~W.~R. {Mathematica, {V}ersion 12.3}.
+  \url{https://www.wolfram.com/mathematica}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bethe(1930)]{Bethe1930}
+Bethe,~H. {Zur Theorie des Durchgangs schneller Korpuskularstrahlen durch
+  Materie}. \emph{Ann. Phys.} \textbf{1930}, \emph{397}, 325--400\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Susi \latin{et~al.}(2019)Susi, Meyer, and Kotakoski]{Susi2019}
+Susi,~T.; Meyer,~J.~C.; Kotakoski,~J. {Quantifying transmission electron
+  microscopy irradiation effects using two-dimensional materials}. \emph{Nat.
+  Rev. Phys.} \textbf{2019}, \emph{1}, 397--405\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kretschmer \latin{et~al.}(2020)Kretschmer, Lehnert, Kaiser, {V.
+  Krasheninnikov}, and Krasheninnikov]{Kretschmer2020}
+Kretschmer,~S.; Lehnert,~T.; Kaiser,~U.; {V. Krasheninnikov},~A.;
+  Krasheninnikov,~A.~V. {Formation of defects in two-dimensional MoS$_2$ in
+  transmission electron microscope at electron energies below the knock-on
+  threshold : the role of electronic excitations}. \emph{Nano Lett.}
+  \textbf{2020}, \emph{20}, 2865--2870\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Komsa \latin{et~al.}(2012)Komsa, Kotakoski, Kurasch, Lehtinen, Kaiser,
+  and Krasheninnikov]{Komsa2012}
+Komsa,~H.~P.; Kotakoski,~J.; Kurasch,~S.; Lehtinen,~O.; Kaiser,~U.;
+  Krasheninnikov,~A.~V. {Two-dimensional transition metal dichalcogenides under
+  electron irradiation: Defect production and doping}. \emph{Phys. Rev. Lett.}
+  \textbf{2012}, \emph{109}, 035503--1--5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Thornton and Marion(2004)Thornton, and Marion]{Thornton2004}
+Thornton,~S.~T.; Marion,~J.~B. \emph{{Classical Dynamics of Particles and
+  Systems}}, 5th ed.; Brooks/Cole: Boston, MA, 2004\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sakurai and Napolitano(2011)Sakurai, and Napolitano]{Sakurai2011}
+Sakurai,~J.~J.; Napolitano,~J. \emph{{Modern Quantum Mechanics}}, 2nd ed.;
+  Pearson Education: San Fransisco, CA, 2011\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yoshimura \latin{et~al.}(2018)Yoshimura, Lamparski, Kharche, and
+  Meunier]{Yoshimura2018}
+Yoshimura,~A.; Lamparski,~M.; Kharche,~N.; Meunier,~V. {First-principles
+  simulation of local response in transition metal dichalcogenides under
+  electron irradiation}. \emph{Nanoscale} \textbf{2018}, \emph{10},
+  2388--2397\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

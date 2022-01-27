@@ -1,0 +1,515 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{56}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Banhart(1999)]{Banhart1999}
+Banhart,~F. {Irradiation effects in carbon nanostructures}. \emph{Rep. Prog.
+  Phys.} \textbf{1999}, \emph{62}, 1181--1221\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Egerton(2013)]{Egerton2013}
+Egerton,~R.~F. {Ultramicroscopy Control of radiation damage in the TEM}.
+  \emph{Ultramicroscopy} \textbf{2013}, \emph{127}, 100--108\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \latin{et~al.}(2017)Zhao, Kotakoski, Meyer, Sutter, Sutter,
+  Krasheninnikov, Kaiser, and Zhou]{Zhao2017}
+Zhao,~X.; Kotakoski,~J.; Meyer,~J.~C.; Sutter,~E.; Sutter,~P.;
+  Krasheninnikov,~A.~V.; Kaiser,~U.; Zhou,~W. {Engineering and modifying
+  two-dimensional materials by electron beams}. \emph{MRS Bull.} \textbf{2017},
+  \emph{42}, 667--676\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Susi \latin{et~al.}(2019)Susi, Meyer, and Kotakoski]{Susi2019}
+Susi,~T.; Meyer,~J.~C.; Kotakoski,~J. {Quantifying transmission electron
+  microscopy irradiation effects using two-dimensional materials}. \emph{Nat.
+  Rev. Phys.} \textbf{2019}, \emph{1}, 397--405\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer \latin{et~al.}(2012)Meyer, Eder, Kurasch, Skakalova, Kotakoski,
+  Park, Roth, Chuvilin, Eyhusen, Benner, Krasheninnikov, and Kaiser]{Meyer2012}
+Meyer,~J.~C.; Eder,~F.; Kurasch,~S.; Skakalova,~V.; Kotakoski,~J.; Park,~H.~J.;
+  Roth,~S.; Chuvilin,~A.; Eyhusen,~S.; Benner,~G.; Krasheninnikov,~A.~V.;
+  Kaiser,~U. {Accurate measurement of electron beam induced displacement cross
+  sections for single-layer graphene}. \emph{Phys. Rev. Lett.} \textbf{2012},
+  \emph{108}, 196102--196107\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Susi \latin{et~al.}(2016)Susi, Hofer, Argentero, Leuthner, Pennycook,
+  Mangler, Meyer, and Kotakoski]{Susi2016}
+Susi,~T.; Hofer,~C.; Argentero,~G.; Leuthner,~G.~T.; Pennycook,~T.~J.;
+  Mangler,~C.; Meyer,~J.~C.; Kotakoski,~J. {Isotope analysis in the
+  transmission electron microscope}. \emph{Nat. Commun.} \textbf{2016},
+  \emph{7}, 13040\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yoshimura \latin{et~al.}(2018)Yoshimura, Lamparski, Kharche, and
+  Meunier]{Yoshimura2018}
+Yoshimura,~A.; Lamparski,~M.; Kharche,~N.; Meunier,~V. {First-principles
+  simulation of local response in transition metal dichalcogenides under
+  electron irradiation}. \emph{Nanoscale} \textbf{2018}, \emph{10},
+  2388--2397\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kotakoski \latin{et~al.}(2010)Kotakoski, Jin, Lehtinen, Suenaga, and
+  Krasheninnikov]{Kotakoski2010}
+Kotakoski,~J.; Jin,~C.~H.; Lehtinen,~O.; Suenaga,~K.; Krasheninnikov,~A.~V.
+  {Electron knock-on damage in hexagonal boron nitride monolayers}. \emph{Phys.
+  Rev. B} \textbf{2010}, \emph{82}, 113404\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cretu \latin{et~al.}(2015)Cretu, Lin, and Suenaga]{Cretu2015}
+Cretu,~O.; Lin,~Y.~C.; Suenaga,~K. {Inelastic electron irradiation damage in
+  hexagonal boron nitride}. \emph{Micron} \textbf{2015}, \emph{72},
+  21--27\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lin \latin{et~al.}(2015)Lin, Bj{\"{o}}rkman, Komsa, Teng, Yeh, Huang,
+  Lin, Jadczak, Huang, Chiu, Krasheninnikov, and Suenaga]{Lin2015}
+Lin,~Y.-C.; Bj{\"{o}}rkman,~T.; Komsa,~H.-P.; Teng,~P.-Y.; Yeh,~C.-H.;
+  Huang,~F.-S.; Lin,~K.-H.; Jadczak,~J.; Huang,~Y.-S.; Chiu,~P.-W.;
+  Krasheninnikov,~A.~V.; Suenaga,~K. {Three-fold rotational defects in
+  two-dimensional transition metal dichalcogenides.} \emph{Nat. Commun.}
+  \textbf{2015}, \emph{6}, 6736--6741\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lehnert \latin{et~al.}(2017)Lehnert, Lehtinen, Siller, Kaiser,
+  Algara-Siller, and Kaiser]{Lehnert2017}
+Lehnert,~T.; Lehtinen,~O.; Siller,~G.~A.; Kaiser,~U.; Algara-Siller,~G.;
+  Kaiser,~U. {Electron radiation damage mechanisms in 2D MoSe$_2$}. \emph{Appl.
+  Phys. Lett.} \textbf{2017}, \emph{110}, 033106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kretschmer \latin{et~al.}(2020)Kretschmer, Lehnert, Kaiser, {V.
+  Krasheninnikov}, and Krasheninnikov]{Kretschmer2020}
+Kretschmer,~S.; Lehnert,~T.; Kaiser,~U.; {V. Krasheninnikov},~A.;
+  Krasheninnikov,~A.~V. {Formation of defects in two-dimensional MoS$_2$ in
+  transmission electron microscope at electron energies below the knock-on
+  threshold : the role of electronic excitations}. \emph{Nano Lett.}
+  \textbf{2020}, \emph{20}, 2865--2870\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hohenberg and Kohn(1964)Hohenberg, and Kohn]{Hohenberg1964}
+Hohenberg,~P.; Kohn,~W. {Inhomogeneous electron gas}. \emph{Phys. Rev.}
+  \textbf{1964}, \emph{136}, B864--871\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kohn and Sham(1965)Kohn, and Sham]{Kohn1965}
+Kohn,~W.; Sham,~L.~J. {Self-consistent equations including exchange and
+  correlation effects}. \emph{Phys. Rev.} \textbf{1965}, \emph{140},
+  A1133--1138\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Furthm{\"{u}}ller(1996)Kresse, and
+  Furthm{\"{u}}ller]{Kresse1996a}
+Kresse,~G.; Furthm{\"{u}}ller,~J. {Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set}. \emph{Phys. Rev. B}
+  \textbf{1996}, \emph{54}, 11169--11186\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Louren{\c{c}}o-Martins \latin{et~al.}(2021)Louren{\c{c}}o-Martins,
+  Lubk, and Kociak]{Lourenco-Martins2021}
+Louren{\c{c}}o-Martins,~H.; Lubk,~A.; Kociak,~M. {Bridging nano-optics and
+  condensed matter formalisms in a unified description of inelastic scattering
+  of relativistic electron beams}. \emph{SciPost Phys.} \textbf{2021},
+  \emph{10}, 31\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peskin and Schroeder(1995)Peskin, and Schroeder]{Peskin1995}
+Peskin,~M.~E.; Schroeder,~D.~V. \emph{{An Introduction to Quantum Field
+  Theory}}, 1st ed.; Perseus Books Publishing, L.L.C.: Reading, MA, 1995\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lancaster and Blundell(2014)Lancaster, and Blundell]{Lancaster2014}
+Lancaster,~T.; Blundell,~S.~J. \emph{{Quantum Field Theory for the Gifted
+  Amateur}}, 1st ed.; Oxford University Press: New York, NY, United States of
+  America, 2014; p 350\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mott(1929)]{Mott1929}
+Mott,~N.~F. {The Scattering of Fast Electrons by Atomic Nuclei}. \emph{Proc. R.
+  Soc. A} \textbf{1929}, \emph{124}, 425--442\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McKinley and Feshbach(1948)McKinley, and Feshbach]{McKinley1948}
+McKinley,~W.~A.; Feshbach,~H. {The coulomb scattering of relativistic electrons
+  by nuclei}. \emph{Phys. Rev.} \textbf{1948}, \emph{74}, 1759--1763\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Oen(1973)]{Oen1973}
+Oen,~O.~S. \emph{{Cross sections for atomic displacements in solids by fast
+  electrons}}; 1973\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Egerton \latin{et~al.}(2010)Egerton, McLeod, Wang, and
+  Malac]{Egerton2010}
+Egerton,~R.~F.; McLeod,~R.; Wang,~F.; Malac,~M. {Basic questions related to
+  electron-induced sputtering in the TEM}. \emph{Ultramicroscopy}
+  \textbf{2010}, \emph{110}, 991--997\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[M{\o}ller(1932)]{Moller1932}
+M{\o}ller,~C. {Zur Theorie des Durchgangs schneller Elektronen durch Materie}.
+  \emph{Ann. Phys.} \textbf{1932}, \emph{406}, 531--585\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kragh(1992)]{Kragh1992}
+Kragh,~H. {Relativistic collisions: The work of Christian M{\o}ller in the
+  early 1930s}. \emph{Arch. Hist. Exact Sci.} \textbf{1992}, \emph{43},
+  299--328\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Roqu{\'e}(1992)]{Roqu1992}
+Roqu{\'e},~X. {M{\o}ller scattering: a neglected application of early quantum
+  electrodynamics}. \emph{Arch. Hist. Exact Sci.} \textbf{1992}, \emph{44},
+  197--264\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bethe(1930)]{Bethe1930}
+Bethe,~H. {Zur Theorie des Durchgangs schneller Korpuskularstrahlen durch
+  Materie}. \emph{Ann. Phys.} \textbf{1930}, \emph{397}, 325--400\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inokuti \latin{et~al.}(1967)Inokuti, Kim, and Platzman]{Inokuti1967}
+Inokuti,~M.; Kim,~Y.-K.; Platzman,~R.~L. {Total Cross Sections for Inelastic
+  Scattering of Charged Particles by Atoms and Molecules. I. A Sum Rule for the
+  Bethe Cross Sections and Its Application to the Helium Atom}. \emph{Phys.
+  Rev.} \textbf{1967}, \emph{164}, 55--61\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gusakova \latin{et~al.}(2017)Gusakova, Wang, Shiau, Krivosheeva,
+  Shaposhnikov, Borisenko, Gusakov, and Tay]{Gusakova2017}
+Gusakova,~J.; Wang,~X.; Shiau,~L.~L.; Krivosheeva,~A.; Shaposhnikov,~V.;
+  Borisenko,~V.; Gusakov,~V.; Tay,~B.~K. {Electronic Properties of Bulk and
+  Monolayer TMDs: Theoretical Study Within DFT Framework (GVJ-2e Method)}.
+  \emph{Phys. status solidi} \textbf{2017}, \emph{214}, 1700218\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Elias \latin{et~al.}(2019)Elias, Valvin, Pelini, Summerfield, Mellor,
+  Cheng, Eaves, Foxon, Beton, Novikov, Gil, and Cassabois]{Elias2019}
+Elias,~C.; Valvin,~P.; Pelini,~T.; Summerfield,~A.; Mellor,~C.~J.;
+  Cheng,~T.~S.; Eaves,~L.; Foxon,~C.~T.; Beton,~P.~H.; Novikov,~S.~V.; Gil,~B.;
+  Cassabois,~G. {Direct band-gap crossover in epitaxial monolayer boron
+  nitride}. \emph{Nat. Commun.} \textbf{2019}, \emph{10}, 2639\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lingerfelt \latin{et~al.}(2019)Lingerfelt, Ganesh, Jakowski, and
+  Sumpter]{Lingerfelt2019a}
+Lingerfelt,~D.~B.; Ganesh,~P.; Jakowski,~J.; Sumpter,~B.~G. {Electronically
+  Nonadiabatic Structural Transformations Promoted by Electron Beams}.
+  \emph{Adv. Funct. Mater.} \textbf{2019}, \emph{1901901}, 1901901\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \latin{et~al.}(2005)Li, Tully, Schlegel, and Frisch]{Li2005}
+Li,~X.; Tully,~J.~C.; Schlegel,~H.~B.; Frisch,~M.~J. {Ab initio Ehrenfest
+  dynamics}. \emph{J. Chem. Phys.} \textbf{2005}, \emph{123}, 84106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Komsa \latin{et~al.}(2012)Komsa, Kotakoski, Kurasch, Lehtinen, Kaiser,
+  and Krasheninnikov]{Komsa2012}
+Komsa,~H.~P.; Kotakoski,~J.; Kurasch,~S.; Lehtinen,~O.; Kaiser,~U.;
+  Krasheninnikov,~A.~V. {Two-dimensional transition metal dichalcogenides under
+  electron irradiation: Defect production and doping}. \emph{Phys. Rev. Lett.}
+  \textbf{2012}, \emph{109}, 035503--1--5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jin \latin{et~al.}(2009)Jin, Lin, Suenaga, and Iijima]{Jin2009}
+Jin,~C.; Lin,~F.; Suenaga,~K.; Iijima,~S. {Fabrication of a freestanding boron
+  nitride single layer and Its defect assignments}. \emph{Phys. Rev. Lett.}
+  \textbf{2009}, \emph{102}, 195505\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer \latin{et~al.}(2009)Meyer, Chuvilin, Algara-Siller, Biskupek,
+  and Kaiser]{Meyer2009}
+Meyer,~J.~C.; Chuvilin,~A.; Algara-Siller,~G.; Biskupek,~J.; Kaiser,~U.
+  {Selective sputtering and atomic resolution imaging of atomically thin boron
+  nitride membranes}. \emph{Nano Lett.} \textbf{2009}, \emph{9},
+  2683--2689\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dogan \latin{et~al.}(2020)Dogan, Gilbert, Pham, Shevitski, Ercius,
+  Aloni, Zettl, and Cohen]{Dogan2020}
+Dogan,~M.; Gilbert,~S.~M.; Pham,~T.; Shevitski,~B.; Ercius,~P.; Aloni,~S.;
+  Zettl,~A.; Cohen,~M.~L. {Electron beam-induced nanopores in Bernal-stacked
+  hexagonal boron nitride}. \emph{Appl. Phys. Lett.} \textbf{2020}, \emph{117},
+  9--13\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \latin{et~al.}(2016)Li, Cao, Hoffman, Edgar, Lin, and
+  Jiang]{Li2016b}
+Li,~J.; Cao,~X.~K.; Hoffman,~T.~B.; Edgar,~J.~H.; Lin,~J.~Y.; Jiang,~H.~X.
+  {Nature of exciton transitions in hexagonal boron nitride}. \emph{Appl. Phys.
+  Lett.} \textbf{2016}, \emph{108}, 122101--1--4\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Korn \latin{et~al.}(2011)Korn, Heydrich, Hirmer, Schmutzler,
+  Sch{\"{u}}ller, and Schller]{Korn2011}
+Korn,~T.; Heydrich,~S.; Hirmer,~M.; Schmutzler,~J.; Sch{\"{u}}ller,~C.;
+  Schller,~C. {Low-temperature photocarrier dynamics in monolayer MoS$_2$}.
+  \emph{Appl. Phys. Lett.} \textbf{2011}, \emph{99}, 102109\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lagarde \latin{et~al.}(2014)Lagarde, Bouet, Marie, Zhu, Liu, Amand,
+  Tan, and Urbaszek]{Lagarde2014}
+Lagarde,~D.; Bouet,~L.; Marie,~X.; Zhu,~C.~R.; Liu,~B.~L.; Amand,~T.;
+  Tan,~P.~H.; Urbaszek,~B. {Carrier and Polarization Dynamics in Monolayer
+  MoS$_2$}. \emph{Phys. Rev. Lett.} \textbf{2014}, \emph{112}, 047401\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Palummo \latin{et~al.}(2015)Palummo, Bernardi, and
+  Grossman]{Palummo2015a}
+Palummo,~M.; Bernardi,~M.; Grossman,~J.~C. {Exciton Radiative Lifetimes in
+  Two-Dimensional Transition Metal Dichalcogenides}. \emph{Nano Lett.}
+  \textbf{2015}, \emph{15}, 2794--2800\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kozawa \latin{et~al.}(2014)Kozawa, Kumar, Carvalho, {Kumar Amara},
+  Zhao, Wang, Toh, Ribeiro, {Castro Neto}, Matsuda, and Eda]{Kozawa2014}
+Kozawa,~D.; Kumar,~R.; Carvalho,~A.; {Kumar Amara},~K.; Zhao,~W.; Wang,~S.;
+  Toh,~M.; Ribeiro,~R.~M.; {Castro Neto},~A.~H.; Matsuda,~K.; Eda,~G.
+  {Photocarrier relaxation pathway in two-dimensional semiconducting transition
+  metal dichalcogenides}. \emph{Nat. Commun.} \textbf{2014}, \emph{5},
+  4543\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nie \latin{et~al.}(2015)Nie, Long, {S. Teguh}, Huang, {W. Hewak}, {K.
+  L. Yeow}, Shen, {V. Prezhdo}, and Loh]{Nie2015}
+Nie,~Z.; Long,~R.; {S. Teguh},~J.; Huang,~C.-C.; {W. Hewak},~D.; {K. L.
+  Yeow},~E.; Shen,~Z.; {V. Prezhdo},~O.; Loh,~Z.-H. {Ultrafast Electron and
+  Hole Relaxation Pathways in Few-Layer MoS$_2$}. \emph{J. Phys. Chem. C}
+  \textbf{2015}, \emph{119}, 20698--20708\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shi \latin{et~al.}(2013)Shi, Yan, Bertolazzi, Brivio, Gao, Kis, Jena,
+  Xing, and Huang]{Shi2013b}
+Shi,~H.; Yan,~R.; Bertolazzi,~S.; Brivio,~J.; Gao,~B.; Kis,~A.; Jena,~D.;
+  Xing,~H.~G.; Huang,~L. {Exciton dynamics in suspended monolayer and few-layer
+  MoS$_2$ 2D crystals}. \emph{ACS Nano} \textbf{2013}, \emph{7},
+  1072--1080\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bl{\"{o}}chl(1994)]{Blochl1994}
+Bl{\"{o}}chl,~P.~E. {Projector augmented-wave method}. \emph{Phys. Rev. B}
+  \textbf{1994}, \emph{50}, 17953--17979\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shishkin and Kresse(2006)Shishkin, and Kresse]{Shishkin2006a}
+Shishkin,~M.; Kresse,~G. {Implementation and performance of the
+  frequency-dependent GW method within the PAW framework}. \emph{Phys. Rev. B}
+  \textbf{2006}, \emph{74}, 035101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gajdo{\v{s}} \latin{et~al.}(2006)Gajdo{\v{s}}, Hummer, Kresse,
+  Furthm{\"{u}}ller, and Bechstedt]{Gajdos2006}
+Gajdo{\v{s}},~M.; Hummer,~K.; Kresse,~G.; Furthm{\"{u}}ller,~J.; Bechstedt,~F.
+  {Linear optical properties in the projector-augmented wave methodology}.
+  \emph{Phys. Rev. B} \textbf{2006}, \emph{73}, 045112\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Paier \latin{et~al.}(2005)Paier, Hirschl, Marsman, and
+  Kresse]{Paier2005}
+Paier,~J.; Hirschl,~R.; Marsman,~M.; Kresse,~G. {The Perdew–Burke–Ernzerhof
+  exchange-correlation functional applied to the G2-1 test set using a
+  plane-wave basis set}. \emph{J. Chem. Phys.} \textbf{2005}, \emph{122},
+  234102\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kaduk \latin{et~al.}(2012)Kaduk, Kowalczyk, and {Van
+  Voorhis}]{Kaduk2012}
+Kaduk,~B.; Kowalczyk,~T.; {Van Voorhis},~T. {Constrained Density Functional
+  Theory}. \emph{Chem. Rev.} \textbf{2012}, \emph{112}, 321--370\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Furthm{\"{u}}ller(1996)Kresse, and
+  Furthm{\"{u}}ller]{Kresse1996}
+Kresse,~G.; Furthm{\"{u}}ller,~J. {Efficiency of ab-initio total energy
+  calculations for metals and semiconductors using a plane-wave basis set}.
+  \emph{Comput. Mater. Sci.} \textbf{1996}, \emph{6}, 15--50\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perdew \latin{et~al.}(1996)Perdew, Burke, and Ernzerhof]{Perdew1996}
+Perdew,~J.~P.; Burke,~K.; Ernzerhof,~M. {Generalized Gradient Approximation
+  Made Simple}. \emph{Phys. Rev. Lett.} \textbf{1996}, \emph{77},
+  3865--3868\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Klime{\v{s}} \latin{et~al.}(2009)Klime{\v{s}}, Bowler, and
+  Michaelides]{Klimes2010}
+Klime{\v{s}},~J.; Bowler,~D.; Michaelides,~A. {Chemical accuracy for the van
+  der Waals density functional}. \emph{J. Phys. Condens. Matter} \textbf{2009},
+  \emph{22}, 022201--022205\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Klime{\v{s}} \latin{et~al.}(2011)Klime{\v{s}}, Bowler, and
+  Michaelides]{Klimes2011}
+Klime{\v{s}},~J.; Bowler,~D.~R.; Michaelides,~A. {Van der Waals density
+  functionals applied to solids}. \emph{Phys. Rev. B} \textbf{2011}, \emph{83},
+  195131--1--13\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Monkhorst and Pack(1976)Monkhorst, and Pack]{Monkhorst1976}
+Monkhorst,~H.; Pack,~J. {Special points for Brillouin zone integrations}.
+  \emph{Phys. Rev. B} \textbf{1976}, \emph{13}, 5188--5192\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hamann(2013)]{Hamann2013}
+Hamann,~D.~R. {Optimized norm-conserving Vanderbilt pseudopotentials}.
+  \emph{Phys. Rev. B} \textbf{2013}, \emph{88}, 085117\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schlipf and Gygi(2015)Schlipf, and Gygi]{Schlipf2015}
+Schlipf,~M.; Gygi,~F. {Optimization algorithm for the generation of ONCV
+  pseudopotentials}. \emph{Comput. Phys. Commun.} \textbf{2015}, \emph{196},
+  36--44\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Giannozzi \latin{et~al.}(2009)Giannozzi, Baroni, Bonini, Calandra,
+  Car, Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, Corso, de~Gironcoli,
+  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
+  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
+  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
+  Wentzcovitch]{Giannozzi2009}
+Giannozzi,~P.; Baroni,~S.; Bonini,~N.; Calandra,~M.; Car,~R.; Cavazzoni,~C.;
+  Ceresoli,~D.; Chiarotti,~G.~L.; Cococcioni,~M.; Dabo,~I.; Corso,~A.~D.;
+  de~Gironcoli,~S.; Fabris,~S.; Fratesi,~G.; Gebauer,~R.; Gerstmann,~U.;
+  Gougoussis,~C.; Kokalj,~A.; Lazzeri,~M.; Martin-Samos,~L. \latin{et~al.}
+  {QUANTUM ESPRESSO: a modular and open-source software project for quantum
+  simulations of materials}. \emph{J. Phys. Condens. Matter} \textbf{2009},
+  \emph{21}, 395502\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
